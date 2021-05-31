@@ -108,7 +108,7 @@ const score = add([
   
   const INVADER_SPEED=100
   let CURRENT_SPEED=INVADER_SPEED
-  const LEVEL_DOWN=100
+  const LEVEL_DOWN=200
 
   action('space-invader', (s)=>{
     s.move(CURRENT_SPEED,0)
