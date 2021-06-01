@@ -31,7 +31,7 @@
   <script>
 
 kaboom({
-  ...{"fullscreen":true,"width":240,"height":240,"scale":1,"startScene":"main","version":"0.5.0"},
+  ...{"fullscreen":true,"width":240,"height":240,"scale":1,"startScene":"main","version":"0.5.0","clearColor":[0,0,0,1]},
   global: true,
   plugins: [ peditPlugin, asepritePlugin, kbmspritePlugin ],
 });
@@ -157,7 +157,7 @@ const score = add([
   
   const INVADER_SPEED=100
   let CURRENT_SPEED=INVADER_SPEED
-  const LEVEL_DOWN=100
+  const LEVEL_DOWN=200
 
   action('space-invader', (s)=>{
     s.move(CURRENT_SPEED,0)
